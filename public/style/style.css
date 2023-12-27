@@ -150,7 +150,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--gradient-color);
+  background-color: var(--body-color);
   box-shadow: 0 4px 20px hsl(var(--hue), 100%, 99%);
   padding-inline: 1.5rem;
   border-radius: 3rem;
@@ -324,21 +324,18 @@ body.dark-theme {
   text-align: center;
   font-size: var(--big-font-size);
   letter-spacing: 0.3px;
-  padding: 2rem;
+  margin-bottom: 2rem;
 }
 .home__container .home__info {
   display: grid;
   row-gap: 2rem;
-  padding: 1rem;
-}
-.home__container .home__info h3 {
-  margin: 1rem;
 }
 .home__container .home__info .home__info-title {
   font-family: var(--body-font);
   font-size: var(--small-font-size);
   font-weight: 400;
   color: var(--text-color-light);
+  padding: 1rem !important;
 }
 .home__container .home__info .home__info-description,
 .home__container .home__info .home__info-number {
@@ -471,7 +468,7 @@ body.dark-theme {
 .service__container .service__card {
   position: relative;
   width: 228px;
-  height: 390px;
+  height: 370px;
   background-color: var(--container-color);
   text-align: center;
   padding: 3.5rem 1rem;
@@ -1111,11 +1108,12 @@ body.dark-theme {
   }
   .service__container .service__card {
     width: 245px;
+    height: 345px;
     border-radius: 7.6rem;
     padding: 3.5rem 1.5rem;
   }
   .service__container .service__card i {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .service__container .services__border {
     width: 265px;
